@@ -14,6 +14,7 @@ $menu = array(
 <script src="vendor/bootstrap/js/bootstrap.js"></script>
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 <link href="css/main.css" rel="stylesheet" />
+<link href="css/bootstrapMenu.css" rel="stylesheet" />
 
 <div class="container">
 	<div class="row">
@@ -24,11 +25,11 @@ $menu = array(
     </div>
     
     <div class="row">
-    	<div class="col-sm-10"><?PHP require_once("collapsed.php");?></div>
+    	<div class="col-sm-12"><?PHP require_once("collapsed.php");?></div>
     </div>
     
     <div class="row"><div class="col-sm-12"><b>horizontal</b></div></div>
-    <div class="row"><div id="horizontal" class="col-sm-12"><?PHP bootstrapMenu("nav", $menu, true); ?></div></div>
+    <div class="row"><div class="col-sm-12"><?PHP bootstrapMenu("nav", $menu, true); ?></div></div>
     
     <div class="row"><div class="col-sm-12"><hr /></div></div>
     
