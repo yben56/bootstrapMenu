@@ -21,10 +21,6 @@ body {
 	font-weight: 300;
 }
 
-#horizontal {
-	text-align: center;
-}
-
-#nav {
-	display: inline-block !important;	
+li {
+	background-color: red;		
 }
